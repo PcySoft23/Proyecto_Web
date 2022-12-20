@@ -1,0 +1,636 @@
+/*----------------------------------------
+1. TIPOGRAFIA DEL SITIO
+-----------------------------------------*/
+html {
+  font-size: 14px;
+}
+
+body {
+  font-weight: lighter;
+  color: #333;
+}
+
+/*-----------------------------------------
+2. ESTILOS GENERALES DE BOTONES
+-------------------------------------------*/
+.btn {
+  padding: 0.4rem 1.5rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/*-----------------------------------------
+3. ESTILOS COLOR PRIMARY
+------------------------------------------*/
+.bg-primary {
+  background-color: #448cce !important;
+}
+
+.text-primary {
+  color: #448cce !important;
+}
+
+/*Estilos btn-primary*/
+.btn-primary {
+  background-color: #448cce;
+  border-color: #448cce;
+}
+
+.btn-primary:hover {
+  background-color: #5898d3 !important;
+  border-color: #448cce;
+}
+
+.btn-primary:active {
+  background-color: #5898d3 !important;
+  border-color: #6ca5d9 !important;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(68, 140, 206, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(68, 140, 206, 0.5) !important;
+}
+
+/*-----------------------------------------
+4. ESTILOS COLOR secondary
+------------------------------------------*/
+.bg-secondary {
+  background-color: #0072cf !important;
+}
+
+.text-secondary {
+  color: #0072cf !important;
+}
+
+/*Estilos btn-primary*/
+.btn-secondary {
+  background-color: #0072cf;
+  border-color: #0072cf;
+}
+
+.btn-secondary:hover {
+  background-color: #0080e9 !important;
+  border-color: #0072cf;
+}
+
+.btn-secondary:active {
+  background-color: #0080e9 !important;
+  border-color: #038eff !important;
+}
+
+.btn-secondary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 114, 207, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(0, 114, 207, 0.5) !important;
+}
+
+/*-----------------------------------------
+5. ESTILOS COLOR WARNING
+------------------------------------------*/
+.bg-warning {
+  background-color: #ef8200 !important;
+}
+
+.text-warning {
+  color: #ef8200 !important;
+}
+
+/*Estilos btn-warning*/
+.btn-warning {
+  background-color: #ef8200;
+  border-color: #ef8200;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #ff8f0a !important;
+  border-color: #ef8200;
+  color: #fff;
+}
+
+.btn-warning:active {
+  background-color: #ff8f0a !important;
+  border-color: #ff9b23 !important;
+}
+
+.btn-warning:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(239, 130, 0, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(239, 130, 0, 0.5) !important;
+}
+
+/*-----------------------------------------
+6. ESTILOS COLOR DARK
+------------------------------------------*/
+.bg-dark {
+  background-color: #999999 !important;
+}
+
+.text-dark {
+  color: #999999 !important;
+}
+
+/*Estilos btn-dark*/
+.btn-dark {
+  background-color: #999999;
+  border-color: #999999;
+}
+
+.btn-dark:hover {
+  background-color: gray !important;
+  border-color: #999999;
+}
+
+.btn-dark:active {
+  background-color: #a6a6a6 !important;
+  border-color: #b3b3b3 !important;
+}
+
+.btn-dark:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(153, 153, 153, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(153, 153, 153, 0.5) !important;
+}
+
+/*-----------------------------------------
+7. ESTILOS #NAVEGACION
+------------------------------------------*/
+#navegacion {
+  background: #191919 !important;
+}
+
+#navegacion .container {
+  max-width: 100%;
+}
+
+/* Logo centrado de forma absoluta */
+.navbar-brand {
+  position: absolute;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-right: 0;
+}
+
+.navbar-brand img {
+  width: 10rem;
+  height: auto;
+}
+
+.fa-windows {
+  -webkit-transform: scale(0.8) translate(0, 2px);
+          transform: scale(0.8) translate(0, 2px);
+}
+
+/* Estilos Mmenu.js */
+.mm-navbar {
+  background: #eaeaea;
+}
+
+/* Enlaces de Mmenujs */
+.mm-menu a,
+.mm-menu a:active,
+.mm-menu a:hover,
+.mm-menu a:link,
+.mm-menu a:visited {
+  color: #333333;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/* Estilos Boton Mburger */
+.mburger {
+  --mb-bar-width: 0.4;
+  --mb-bar-height: 3px;
+  --mb-bar-spacing: 5px;
+  color: white !important;
+  height: auto;
+  line-height: inherit;
+  padding: 1rem 1rem 1rem 3.5rem;
+  left: -1rem;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+}
+
+.mburger:hover {
+  background: rgba(241, 241, 241, 0.329);
+}
+
+/* Boton carrito de compra */
+.btn-iconos {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 0.6em;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+}
+
+.btn-iconos:hover,
+.btn-iconos:focus {
+  background: rgba(241, 241, 241, 0.329);
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.boton-carrito .dropdown-menu {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.62);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.62);
+  -webkit-transition: all ease 0.1s;
+  transition: all ease 0.1s;
+}
+
+.boton-carrito .dropdown-menu::before {
+  content: "";
+  position: absolute;
+  width: 1.3rem;
+  height: 1.3rem;
+  background: #fff;
+  right: 1rem;
+  top: -0.4rem;
+  -webkit-box-shadow: -4px -4px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: -4px -4px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.2rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  pointer-events: none;
+}
+
+/*-----------------------------------------
+8. ESTILOS PARA CAJA DE BUSQUEDA
+------------------------------------------*/
+/* Por defecto ocultamos el icono de X */
+.btn-buscar .fa-times {
+  display: none;
+}
+
+/* Al estar la clase buscar-activo, ocultamos el icono buscar */
+.buscar-activo .fa-search {
+  display: none;
+}
+
+/* Y mostramos  el icono cerrar */
+.buscar-activo .fa-times {
+  display: inline-block;
+}
+
+/*-----------------------------------------
+9. Estilos para "#detalles-encabezado"
+------------------------------------------*/
+.encabezado-fijo {
+  z-index: 9999;
+}
+
+#detalles-encabezado .nav-link {
+  padding: 0 0.5rem;
+  color: #191919;
+  font-weight: lighter;
+}
+
+#detalles-encabezado .nav-link:hover,
+#detalles-encabezado .nav-link:focus {
+  text-decoration: underline;
+}
+
+#detalles-encabezado .nav-link.active {
+  font-weight: bolder;
+}
+
+/*-----------------------------------------
+10. ESTILOS PARA "#slideCaracteristicas"
+------------------------------------------*/
+.navCaracteristicas .swiper-wrapper,
+.navFunciones .swiper-wrapper {
+  width: auto;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translate3d(0px, 0px, 0px) !important;
+          transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.navCaracteristicas .swiper-wrapper .swiper-slide,
+.navFunciones .swiper-wrapper .swiper-slide {
+  height: auto;
+  width: auto !important;
+}
+
+.navCaracteristicas .swiper-slide,
+.navFunciones .swiper-slide {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: grey;
+  padding: 0.2rem 0;
+  margin: 0 1rem;
+  border-bottom: 2px solid transparent;
+  letter-spacing: -0.4px;
+  cursor: pointer;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.navCaracteristicas .swiper-slide.swiper-slide-thumb-active,
+.navFunciones .swiper-slide.swiper-slide-thumb-active {
+  color: #448cce;
+  border-bottom: 2px solid;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-image: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-top: 0;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev::before,
+.swiper-button-next::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f053";
+  font-weight: 900;
+  font-size: 3rem;
+  color: #ccc;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.swiper-button-next::before {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+/*Estado Hover de los botones*/
+.swiper-button-prev:hover::before,
+.swiper-button-next:hover::before {
+  color: #448cce;
+}
+
+/*Estilos para el paginador*/
+.swiper-pagination-bullet {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  margin: 0 0.4rem !important;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #448cce;
+}
+
+/*-----------------------------------------
+11. ESTILOS PARA "#slideFunciones"
+------------------------------------------*/
+#slideFunciones {
+  background: #e6e6e6;
+}
+
+/*-----------------------------------------
+12. ESTILOS PARA "#pie-de-pagina"
+------------------------------------------*/
+#pie-de-pagina {
+  background: #444;
+}
+
+/*-----------------------------------------
+13. ESTILOS PARA ".enlacesPrincipales"
+------------------------------------------*/
+.enlacesPrincipales {
+  background: #666;
+  -webkit-box-shadow: 0 0.4px #a5a5a5 inset;
+          box-shadow: 0 0.4px #a5a5a5 inset;
+}
+
+.enlacesPrincipales .nav-link {
+  padding: 0.3rem 0;
+  font-size: 0.78rem;
+  color: white;
+}
+
+.enlacesPrincipales .nav-link:hover {
+  text-decoration: underline;
+}
+
+/*-----------------------------------------
+14. ESTILOS PARA ".redes-sociales"
+------------------------------------------*/
+.enlacesSociales a {
+  font-size: 2.6rem;
+  color: #444444;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.59);
+  border-radius: 0.2rem;
+  width: 4rem;
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.enlacesSociales a:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+/*-----------------------------------------
+15. ESTILOS PARA ".enlacesGenerales"
+------------------------------------------*/
+.enlacesGenerales li .nav-link {
+  padding: 0.2rem 1rem;
+}
+
+/*--------------------------------------
+16. Estilos para IE11+
+----------------------------------------*/
+.ie11 #bienvenidos .contenedor-video img {
+  width: 100%;
+}
+
+.ie11 .navbar-dark .navbar-nav .nav-link::after {
+  display: block;
+}
+
+/*---------------------------------------------------
+17 .EMPEZAN EL SHOW DE LAS MEDIAS QUERIES
+---------------------------------------------------*/
+@media (min-width: 576px) {
+  /*-----------------------------------------
+15. ESTILOS PARA ".enlacesGenerales"
+------------------------------------------*/
+  .enlacesGenerales li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #fff;
+    content: "\f111";
+    font-size: 0.5rem;
+    margin: 0 0.5em 0 0.2em;
+  }
+
+  .enlacesGenerales li:first-child::before {
+    content: "";
+  }
+
+  .enlacesGenerales li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 15px;
+  }
+
+  .navbar-brand {
+    position: static;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: auto;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+
+  .contenedor-buscar {
+    min-width: 17rem;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding: 0.9rem;
+    font-weight: lighter;
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link:focus,
+  .navbar-dark .navbar-nav .show .nav-link {
+    background: #ffffff45;
+    -webkit-box-shadow: 0 -5px 0px #448cce inset;
+            box-shadow: 0 -5px 0px #448cce inset;
+    cursor: pointer;
+  }
+
+  /* Reduccion del icono a todos el navbar */
+  #navegacion .dropdown-toggle::after {
+    -webkit-transform: scale(0.7) translate(0, 3px);
+            transform: scale(0.7) translate(0, 3px);
+  }
+
+  #menu-principal .dropdown-menu {
+    top: 95%;
+    border-radius: 0;
+    -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2392156863);
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2392156863);
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    /*     transform: translateY(-5rem); */
+  }
+}
+/* Contexto XL */
+@media (min-width: 1200px) {
+  #navegacion .container {
+    max-width: 1140px;
+  }
+
+  .navbar .campo-buscar,
+  .navbar .boton-buscar {
+    border: 0;
+    background: #474747;
+    color: #cccccc !important;
+    font-weight: lighter;
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+  }
+
+  .navbar .campo-buscar:hover,
+  .navbar .campo-buscar:focus {
+    background: #474747;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+
+  .navbar .campo-buscar::-webkit-input-placeholder {
+    color: #cccccc !important;
+    font-weight: lighter;
+    opacity: 1;
+    /* Firefox */
+  }
+
+  .navbar .campo-buscar:-ms-input-placeholder {
+    color: #cccccc !important;
+    font-weight: lighter;
+    opacity: 1;
+    /* Firefox */
+  }
+
+  .navbar .campo-buscar::-ms-input-placeholder {
+    color: #cccccc !important;
+    font-weight: lighter;
+    opacity: 1;
+    /* Firefox */
+  }
+
+  .navbar .campo-buscar::placeholder {
+    color: #cccccc !important;
+    font-weight: lighter;
+    opacity: 1;
+    /* Firefox */
+  }
+
+  .navbar .boton-buscar:hover,
+  .navbar .boton-buscar:focus {
+    background-color: #8c8c8c !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+}
+/* 
+Barras atras y adelante .swiper
+El encabezado pegado
+Optmizar en otros navegadores.
+ */
+
+/*# sourceMappingURL=estilos.css.map */

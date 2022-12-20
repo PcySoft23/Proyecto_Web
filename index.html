@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Features of Snagit | TeachSmith</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Carga del CSS de "Bootstrap" -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Carga del CSS de "Font Awesome" -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- Carga del CSS de "Swiper" -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Carga de Fuentes de google  -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+
+    <!-- Carga del CSS de "Mmenu" -->
+    <link type="text/css" rel="stylesheet" href="libs/mmenu/dist/mmenu.css" />
+
+    <!-- Carga del CSS de "Mburger" -->
+    <link type="text/css" rel="stylesheet" href="libs/mburger/dist/mburger.css" />
+
+    <!-- Carga del CSS personalizado -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+   
+    <div id="page"> 
+        <!-- #navegacion -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-0 Sticky justify-content-md" id="navegacion"
+            data-sticky data-sticky-for="1600" data-sticky-class="fixed-top">
+            <div class="container align-items-stretch flex-nowrap">
+                <button type="button" class="mburger mburger--spin navbar-toggler  mr-0" data-toggle="collapse"
+                    aria-expanded="false" aria-label="Botón menú">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                    <span class="font-weight-light small">Menu</span>
+                </button>
+
+
+                <a href="#" class="navbar-brand py-0 align-self-center">
+                    <img src="images/logo-light.svg" alt="Logo del sitio" width="auto">
+                </a>
+
+                <div class="collapse navbar-collapse ml-lg-2" id="menu-principal">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item dropdown">
+
+                            <span href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-expanded="false" aria-haspopup="true" id="item-menu-nosotros">Products</span>
+
+                            <div class="dropdown-menu" aria-labelledby="item-menu-nosotros">
+
+                                <a href="#" class="dropdown-item ">
+                                    <span>Snagit</span>
+                                    <i class="fab fa-windows"></i>
+                                    <i class="fab fa-apple"></i>
+                                    <p class="mb-0 text-muted small font-weight-light">Screen Capture &amp; Screen
+                                        Recorder</p>
+                                    <div class="dropdown-divider d-none d-lg-block"></div>
+                                </a>
+
+
+                                <a href="#" class="dropdown-item">
+                                    <span>Camtasia</span>
+                                    <i class="fab fa-windows"></i>
+                                    <i class="fab fa-apple"></i>
+                                    <p class="mb-0 text-muted small font-weight-light">Screen Recorder & Video Editor
+                                    </p>
+                                    <div class="dropdown-divider d-none d-lg-block"></div>
+
+
+                                </a>
+
+                                <a href="#" class="dropdown-item">
+                                    <span>ScreenCast</span>
+                                    <i class="fab fa-windows"></i>
+                                    <p class="mb-0 text-muted small font-weight-light">Video & Content Hosting</p>
+                                    <div class="dropdown-divider d-none d-lg-block"></div>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <span href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-expanded="false" aria-haspopup="true" id="item-menu-servicios">Solutions</span>
+
+                            <div class="dropdown-menu" aria-labelledby="item-menu-servicios">
+                                <a href="#" class="dropdown-item">
+                                    <span>Business</span>
+                                    <p class="mb-0 text-muted small font-weight-light">Small business and enterprise</p>
+                                    <div class="dropdown-divider  d-none d-lg-block"></div>
+                                </a>
+                                <a href="#" class="dropdown-item">
+                                    <span>Education</span>
+                                    <p class="mb-0 text-muted small font-weight-light">Higher education solution</p>
+                                    <div class="dropdown-divider  d-none d-lg-block"></div>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item Selected active"><a href="#" class="nav-link">Resources</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Store</a></li>
+
+
+
+
+                    </ul>
+                </div>
+
+
+                <div data-juggler-target="caja-buscar" data-juggler-media-query="(min-width: 1200px)"></div>
+
+                <div class="dropdown boton-carrito ml-auto">
+                    <button class="btn-iconos dropdown-toggle h-100" type="button" id="menu-carrito"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-shopping-cart fa-lg"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right py-3" aria-labelledby="menu-carrito">
+                        <button class="dropdown-item" type="button">Your cart is empty</button>
+                    </div>
+                </div>
+
+
+                <button type="button" class="btn-iconos btn-buscar  d-xl-none" data-toggle="collapse"
+                    data-target="#formulario-buscar" aria-expanded="false" aria-controls="formulario-buscar">
+                    <i class="fas fa-search fa-fw fa-lg"></i>
+                    <i class="fas fa-times fa-fw fa-lg"></i>
+                </button>
+
+                <a href="#" class="btn-iconos d-none d-lg-flex align-items-lg-center">
+                    <i class="fas fa-phone-alt fa-lg"></i>
+                </a>
+
+                <a href="#" class="btn btn-outline-light d-none d-lg-inline-block align-self-lg-center ml-lg-2">Sing
+                    In</a>
+            </div>
+        </nav>
+
+        <form class="collapse" id="formulario-buscar">
+            <div class="container-fluid">
+                <div class="input-group py-3 w-auto ml-xl-auto mr-xl-2 py-xl-0  align-self-lg-center  contenedor-buscar"
+                    data-juggler-source="caja-buscar">
+                    <input type="search" class="form-control campo-buscar" placeholder="Search Techsmith.com">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-primary boton-buscar"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <!-- Seccion #barra-contacto -->
+        <section id="detalles-encabezado" class="py-3 bg-white">
+            <div class="container">
+                <div class="row no-gutters align-items-sm-center">
+
+                    <div class="col-12 col-sm-auto col-lg-auto pb-3 pb-sm-0">
+                        <a href="#" class="logo">
+                            <img src="images/snagit-logo.svg" alt="Logo del sitio" width="110" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="d-none d-lg-block col-lg-auto">
+                        <ul class="nav ml-lg-2">
+                            <li class="nav-item"><a href="#" class="nav-link">OverView</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link active">Features</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Upgrade</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Maintenance</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="col-6 pr-2  col-sm-auto ml-sm-auto col-lg-auto ">
+                        <a href="#" class="btn btn-secondary d-block d-sm-inline-block">Free Trial</a>
+                    </div>
+                    <div class="col-6 col-sm-auto pl-2 col-lg-auto">
+                        <a href="#" class="btn btn-warning d-block d-sm-inline-block">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <main id="porque-elegirnos" class="py-5 bg-primary text-white text-center">
+            <div class="container">
+
+                <header class="mb-5">
+                    <h1 class="text-center display-4 font-weight-bolder">Snagit Features</h1>
+                    <p class="lead">Check out what's new in Snagit 2019</p>
+                </header>
+
+
+                <div class="row">
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <img src="images/Snagit-2019-Features-Combine-Images.svg" alt="Imagen 1" class="img-fluid">
+                        <h5 class="font-weight-bold mt-3 mb-2">Combine Images</h5>
+
+                        <p>Take separate Snagit images and combine them into one, organized piece of
+                            content.</p>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <img src="images/Snagit-2019-Features-Favorites.svg" alt="Imagen 2" class="img-fluid">
+                        <h5 class="font-weight-bold mt-3 mb-2">Favorites</h5>
+
+                        <p>Keep all of your most valuable tools together in one spot.</p>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <img src="images/Snagit-2019-Features-Stamp-Search.svg" alt="Imagen 3" class="img-fluid">
+                        <h5 class="font-weight-bold mt-3 mb-2">Stamp Search</h5>
+
+                        <p>Quickly search through nearly 2,000 pre-mades stamps.</p>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <img src="images/Snagit-2019-Features-Simplify.svg" alt="Imagen 4" class="img-fluid">
+                        <h5 class="font-weight-bold mt-3 mb-2">Simplify Tool</h5>
+
+                        <p>Convert your standard screenshots into simplified graphics.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+
+        <section id="slideCaracteristicas" class="py-4">
+            <div class="container">
+
+                <div class="swiper-container my-4 navCaracteristicas">
+                    <div class="swiper-wrapper flex-column align-items-center flex-sm-row justify-content-sm-center">
+                        <div class="swiper-slide">All-in-One Capture</div>
+                        <div class="swiper-slide">Scrolling Screen Capture</div>
+                        <div class="swiper-slide">Grab Text</div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="swiper-container mt-sm-5 slideCaracteristicas">
+                    <div class="swiper-wrapper">
+
+                        <!-- slider 1 -->
+                        <div class="swiper-slide px-4 px-md-5 pb-5">
+
+
+                            <div class="row align-items-md-center">
+                                <div class="col-12 col-md-6">
+                                    <h3>All-in-One Capture®</h3>
+                                    <p class="lead">
+                                        Capture your entire desktop, a region, a window, or a scrolling screen.
+                                    </p>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <img src="images/Snagit-Overview-Feature-All-In-One.svg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- slider 2 -->
+                        <div class="swiper-slide px-4 px-md-5 pb-5">
+                   
+                                <div class="row align-items-md-center">
+                                    <div class="col-12 col-md-6">
+                                        <h3>Scrolling Screen Capture</h3>
+                                        <p class="lead">
+                                            Take a full-page, scrolling screenshot. Snagit's screen capture tool makes
+                                            it
+                                            simple
+                                            to grab vertical and horizontal scrolls, infinitely scrolling webpages, long
+                                            chat
+                                            messages, and everything in between.
+                                        </p>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <img src="images/Snagit-Overview-Feature-Scrolling-Capture.svg" alt="">
+                                    </div>
+                                </div>
+                           
+                        </div>
+
+                        <!-- slider 3 -->
+                        <div class="swiper-slide px-4 px-md-5 pb-5">
+                            
+                                <div class="row align-items-md-center ">
+                                    <div class="col-12 col-md-6">
+                                        <h3>Grab Text</h3>
+                                        <p class="lead">
+                                            Extract the text from a screen capture or file and quickly paste it into
+                                            another
+                                            document for edits. Easily copy information without retyping all the text.
+                                        </p>
+
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <img src="images/Snagit-Overview-Feature-Text-Grab.svg" alt="">
+                                    </div>
+                                </div>
+                        </div>
+
+                    </div> <!-- .swiper-wrapper -->
+
+                    <!-- Botones de paginación -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Botones de navegación -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="slideFunciones" class="py-4">
+            <div class="container">
+                
+                <div class="swiper-container my-4 navFunciones">
+                    <div class="swiper-wrapper flex-column align-items-center flex-sm-row justify-content-sm-center">
+                        <div class="swiper-slide">Screen Recorder</div>
+                        <div class="swiper-slide">Record Webcam</div>
+                        <div class="swiper-slide">Record Audio</div>
+                        <div class="swiper-slide">Animated GIFs</div>
+                    </div>
+                </div>
+
+                <!-- Swiper -->
+                <div class="swiper-container slideFunciones">
+                    <div class="swiper-wrapper">
+
+                        <!-- slider 1 -->
+                        <div class="swiper-slide px-4 px-md-5 pb-5 ">
+                            
+
+                                <div class="row align-items-md-center pb-5">
+                                    <div class="col-12 col-md-6">
+                                        <img src="images/funciones1.svg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <h3>Screen Recorder</h3>
+                                        <p class="lead">
+                                            Snagit's screen recorder lets you quickly record yourself working through
+                                            steps.
+                                            Or grab individual frames out of the recorded video. Save your video file as
+                                            an
+                                            mp4 or animated GIF.
+                                        </p>
+                                    </div>
+
+
+                                </div>
+                            
+                        </div>
+                        <!-- slider 2 -->
+                        <div class="swiper-slide px-4 px-md-5 pb-5 ">
+                            
+                                <div class="row align-items-md-center pb-5">
+                                    <div class="col-12 col-md-6">
+                                        <img src="images/funciones2.svg" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <h3>Record Webcam</h3>
+                                        <p class="lead">
+                                            Toggle between webcam and screen recording during a video. Use the recorder
+                                            to
+                                            add a personal touch with teammates or clients, no matter where they are.
+                                        </p>
+                                    </div>
+
+
+                                </div>
+                           
+                        </div>
+
+                        <!-- slider 3 -->
+                        <div class="swiper-slide px-4 px-md-5 pb-5 ">
+                           
+                                <div class="row align-items-md-center pb-5">
+                                    <div class="col-12 col-md-6">
+                                        <img src="images/funciones3.svg" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <h3>Record Audio</h3>
+                                        <p class="lead">
+                                            Include audio in your videos from either a microphone or your computer’s
+                                            system
+                                            audio.
+                                        </p>
+                                    </div>
+
+
+                                </div>
+                           
+                        </div>
+
+                        <!-- slider 4 -->
+                        <div class="swiper-slide px-4 px-md-5 pb-5">
+                           
+                                <div class="row align-items-md-center pb-5">
+                                    <div class="col-12 col-md-6">
+                                        <img src="images/funciones4.svg" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <h3>Animated GIFs</h3>
+                                        <p class="lead">
+                                            Turn any short recording (.mp4) into an animated GIF, and quickly add it to
+                                            a
+                                            website, document, or chat. Snagit comes with default and custom options to
+                                            create the perfect GIF, every time.
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                        </div>
+
+                    </div> <!-- .swiper-wrapper -->
+
+                    <!-- Botones de navegación -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- Botones de paginación -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="premios" class="bg-primary py-5 text-white text-center">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="h3">Join Over 14 Million People Who Choose Snagit Everyday</h1>
+
+                        <p class="lead">Snagit is the ultimate screen capture and video recording software for Windows
+                            and Mac. Way more than a basic,
+                            free screen capture tool, Snagit is powerful software to capture images and record videos of
+                            your computer screen. Start today for free!.</p>
+
+                        <div class="botones-premios mt-5">
+                            <a href="#" class="btn btn-dark btn-lg px-4 mr-2">Free Trial</a>
+                            <a href="#" class="btn btn-warning btn-lg px-4">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección #pie-de-pagina -->
+
+        <footer id="pie-de-pagina">
+            <nav class="enlacesPrincipales py-4 d-none d-lg-block">
+                <div class="container">
+                    <div class="row">
+                        <!-- Products -->
+                        <div class="col-2">
+                            <h2 class="h6 font-weight-bold">
+                                <a href="#" class="text-white"> Products</a>
+                            </h2>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a href="#" class="nav-link">Snagit</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Camtasia</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Screencast</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Video Review</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Assets</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Relay</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Morae</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Jing</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Solutions -->
+                        <div class="col-2">
+                            <h2 class="h6 font-weight-bold">
+                                <a href="#" class="text-white"> Solutions</a>
+                            </h2>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a href="#" class="nav-link">Business</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Education</a></li>
+                            </ul>
+                        </div>
+
+
+                        <!-- Support -->
+                        <div class="col-2">
+                            <h2 class="h6 font-weight-bold">
+                                <a href="#" class="text-white"> Support</a>
+                            </h2>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a href="#" class="nav-link">Find Software Key</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Tutorials</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Help Center</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Community Forums</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Email Preferences</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Resources -->
+                        <div class="col-2">
+                            <h2 class="h6 font-weight-bold">
+                                <a href="#" class="text-white"> Resources</a>
+                            </h2>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">TechSmith Academy</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Customer Stories</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Press Room</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Partners</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Research</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- About -->
+                        <div class="col-2">
+                            <h2 class="h6 font-weight-bold">
+                                <a href="#" class="text-white"> About</a>
+                            </h2>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Store -->
+                        <div class="col-2">
+                            <h2 class="h6 font-weight-bold">
+                                <a href="#" class="text-white">Store</a>
+                            </h2>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a href="#" class="nav-link">Find a Reseller</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Online Store FAQ</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Payment Options</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Return Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+
+            <section class="redesSociales text-white py-4 text-center">
+                <p class="lead">You Should Stay In Touch!</p>
+                <div class="enlacesSociales d-flex list-unstyled justify-content-center">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+
+            </section>
+
+            <ul class="nav enlacesGenerales flex-column align-items-center flex-sm-row justify-content-sm-center mt-4">
+                <li class="nav-item"><a href="#" class="nav-link text-white">Privacy</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Accessibility</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Sitemap</a></li>
+            </ul>
+            <div class="py-3 text-center text-white small">
+                ©&nbsp;1995&nbsp;-&nbsp;2019, TechSmith Corporation, All&nbsp;Rights&nbsp;Reserved.
+            </div>
+
+        </footer>
+
+    </div> <!-- ·page -->
+
+
+
+    <!-- Carga de "Jquery" -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- Carga de "Popper" -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- Carga de "Bootstrap" -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Carga de "Swiper" -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Carga de "Jquery Stickit.js" | Crean un encabezado fijo en la parte superior de la página
+    <script src="js/sticky.min.js"></script>-->
+    <script src="libs/hc-sticky/dist/hc-sticky.js"></script>
+
+    <!-- Carga de "css_browser_selector" | Crean clases para identificar un disp.-->
+    <script src="js/css_browser_selector.js"></script>
+
+    <!-- Carga de mmenu -->
+    <script src="libs/mmenu/dist/mmenu.js"></script>
+
+    <!-- Carga de Juggler | Mueble bloques de html -->
+    <script src="libs/juggler/dist/juggler.js"></script>
+
+    <!-- Archivo para configurar e iniciar las funciones de los scripts -->
+    <script src="js/mis-scripts.js"></script>
+
+
+</body>
+
+</html>
